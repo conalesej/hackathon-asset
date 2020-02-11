@@ -1,0 +1,44 @@
+{
+	"name": "hackathon-asset",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"browserify-fs": "^1.0.0",
+		"d3-fetch": "^1.1.2",
+		"express": "^4.17.1",
+		"firebase": "^7.1.0",
+		"ml-knn": "^3.0.0",
+		"ml-naivebayes": "^4.0.0",
+		"ml-svm": "^2.1.2",
+		"natural": "^0.6.3",
+		"react": "^16.10.2",
+		"react-dom": "^16.10.2",
+		"react-newline-to-break": "^1.0.6",
+		"react-router-dom": "^5.1.2",
+		"react-scripts": "^3.3.0",
+		"simple-peer": "^9.6.2",
+		"socket.io": "^2.3.0",
+		"socket.io-client": "^2.3.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
